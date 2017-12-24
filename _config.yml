@@ -10,7 +10,7 @@ locale:           "en"
 title:            "I went to Japan"
 name:             "Your Name"
 description:      "A quiet webcomic"
-url:              # the base hostname and protocol (eg. http://example.com)
+url:              "https://tjjjwxzq.github.io"
 baseurl:          "/i-went-to-japan"
 repository:       "tjjjwxzq/i-went-to-japan"
 brand_image:      "assets/images/logo.png" # path to brand image in the `assets/images` folder
