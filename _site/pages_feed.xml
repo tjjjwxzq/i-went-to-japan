@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator>
+  <link href="http://localhost:4000/i-went-to-japan/pages_feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/i-went-to-japan/" rel="alternate" type="text/html" />
+  <updated>2017-12-25T00:18:49+08:00</updated>
+  <id>http://localhost:4000/i-went-to-japan/</id>
+
+  
+  <title type="html">I went to Japan</title>
+  
+
+  
+  <subtitle>A quiet webcomic</subtitle>
+  
+
+  
+  <author>
+    <name>Jun Qi</name>
+    
+    
+  </author>
+  
+
+  
+  
+
+  
+  <entry>
+    <title>
+      
+      44
+      
+    </title>
+    <link href="http://localhost:4000/i-went-to-japan/pages/page-42/" rel="alternate" type="text/html" title="Thanks!" />
+    
+    <published>2017-12-25T00:00:00+08:00</published>
+    
+    <updated>2017-12-25T00:06:46+08:00</updated>
+    <id>http://localhost:4000/i-went-to-japan/pages/page-42</id>
+    <content type="html" xml:base="">
+      
+    </content>
+
+    <author>
+      <name>Jun Qi</name>
+      
+      
+    </author>
+
+    
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/i-went-to-japan/thankyou.png" />
+
+  </entry>
+  
+  <entry>
+    <title>
+      
+      43
+      
+    </title>
+    <link href="http://localhost:4000/i-went-to-japan/pages/page-41/" rel="alternate" type="text/html" title="I Went to Japan" />
+    
+    <published>2017-12-25T00:00:00+08:00</published>
+    
+    <updated>2017-12-25T00:06:46+08:00</updated>
+    <id>http://localhost:4000/i-went-to-japan/pages/page-41</id>
+    <content type="html" xml:base="">
+      
+    </content>
+
+    <author>
+      <name>Jun Qi</name>
+      
+      
+    </author>
+
+    
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/i-went-to-japan/cover-2.png" />
+
+  </entry>
+  
+  <entry>
+    <title>
+      
+      42
+      
+    </title>
+    <link href="http://localhost:4000/i-went-to-japan/pages/page-40/" rel="alternate" type="text/html" title="Nara: Nothing But Deer - 3" />
+    
+    <published>2017-12-14T00:00:00+08:00</published>
+    
+    <updated>2017-12-25T00:06:46+08:00</updated>
+    <id>http://localhost:4000/i-went-to-japan/pages/page-40</id>
+    <content type="html" xml:base="">
+      
+    </content>
+
+    <author>
+      <name>Jun Qi</name>
+      
+      
+    </author>
+
+    
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/i-went-to-japan/nara-nothing-but-deer-3.png" />
+
+  </entry>
+  
+  <entry>
+    <title>
+      
+      41
+      
+    </title>
+    <link href="http://localhost:4000/i-went-to-japan/pages/page-39/" rel="alternate" type="text/html" title="Nara: Nothing But Deer - 2" />
+    
+    <published>2017-12-12T00:00:00+08:00</published>
+    
+    <updated>2017-12-25T00:06:46+08:00</updated>
+    <id>http://localhost:4000/i-went-to-japan/pages/page-39</id>
+    <content type="html" xml:base="">
+      
+    </content>
+
+    <author>
+      <name>Jun Qi</name>
+      
+      
+    </author>
+
+    
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/i-went-to-japan/nara-nothing-but-deer-2.png" />
+
+  </entry>
+  
+  <entry>
+    <title>
+      
+      40
+      
+    </title>
+    <link href="http://localhost:4000/i-went-to-japan/pages/page-38/" rel="alternate" type="text/html" title="Nara: Nothing But Deer - 1" />
+    
+    <published>2017-12-07T00:00:00+08:00</published>
+    
+    <updated>2017-12-25T00:06:46+08:00</updated>
+    <id>http://localhost:4000/i-went-to-japan/pages/page-38</id>
+    <content type="html" xml:base="">
+      
+    </content>
+
+    <author>
+      <name>Jun Qi</name>
+      
+      
+    </author>
+
+    
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/i-went-to-japan/nara-nothing-but-deer-1.png" />
+
+  </entry>
+  
+  <entry>
+    <title>
+      
+      39
+      
+    </title>
+    <link href="http://localhost:4000/i-went-to-japan/pages/page-37/" rel="alternate" type="text/html" title="Happy Family" />
+    
+    <published>2017-12-04T00:00:00+08:00</published>
+    
+    <updated>2017-12-25T00:06:46+08:00</updated>
+    <id>http://localhost:4000/i-went-to-japan/pages/page-37</id>
+    <content type="html" xml:base="">
+      
+    </content>
+
+    <author>
+      <name>Jun Qi</name>
+      
+      
+    </author>
+
+    
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/i-went-to-japan/happy-family.png" />
+
+  </entry>
+  
+  <entry>
+    <title>
+      
+      37
+      
+    </title>
+    <link href="http://localhost:4000/i-went-to-japan/pages/page-35/" rel="alternate" type="text/html" title="Shonenigans III: Oishii!!!(???) - 1" />
+    
+    <published>2017-11-30T00:00:00+08:00</published>
+    
+    <updated>2017-12-25T00:06:46+08:00</updated>
+    <id>http://localhost:4000/i-went-to-japan/pages/page-35</id>
+    <content type="html" xml:base="">
+      
+    </content>
+
+    <author>
+      <name>Jun Qi</name>
+      
+      
+    </author>
+
+    
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/i-went-to-japan/shonenigans-oishii-1.png" />
+
+  </entry>
+  
+  <entry>
+    <title>
+      
+      36
+      
+    </title>
+    <link href="http://localhost:4000/i-went-to-japan/pages/page-36/" rel="alternate" type="text/html" title="Shonenigans III: Oishii!!!(???) - 2" />
+    
+    <published>2017-12-02T00:00:00+08:00</published>
+    
+    <updated>2017-12-25T00:06:46+08:00</updated>
+    <id>http://localhost:4000/i-went-to-japan/pages/page-36</id>
+    <content type="html" xml:base="">
+      
+    </content>
+
+    <author>
+      <name>Jun Qi</name>
+      
+      
+    </author>
+
+    
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/i-went-to-japan/shonenigans-oishii-2.png" />
+
+  </entry>
+  
+  <entry>
+    <title>
+      
+      36
+      
+    </title>
+    <link href="http://localhost:4000/i-went-to-japan/pages/page-34/" rel="alternate" type="text/html" title="Shonenigans II: Kawaii!!!(???)" />
+    
+    <published>2017-11-26T00:00:00+08:00</published>
+    
+    <updated>2017-12-25T00:06:46+08:00</updated>
+    <id>http://localhost:4000/i-went-to-japan/pages/page-34</id>
+    <content type="html" xml:base="">
+      
+    </content>
+
+    <author>
+      <name>Jun Qi</name>
+      
+      
+    </author>
+
+    
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/i-went-to-japan/shonenigans-kawaii.png" />
+
+  </entry>
+  
+  <entry>
+    <title>
+      
+      35
+      
+    </title>
+    <link href="http://localhost:4000/i-went-to-japan/pages/page-33/" rel="alternate" type="text/html" title="Shonenigans I: Puns - 5" />
+    
+    <published>2017-11-23T00:00:00+08:00</published>
+    
+    <updated>2017-12-25T00:06:46+08:00</updated>
+    <id>http://localhost:4000/i-went-to-japan/pages/page-33</id>
+    <content type="html" xml:base="">
+      
+    </content>
+
+    <author>
+      <name>Jun Qi</name>
+      
+      
+    </author>
+
+    
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/i-went-to-japan/shonenigans-puns-5.png" />
+
+  </entry>
+  
+</feed>
+
