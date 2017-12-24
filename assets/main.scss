@@ -1,0 +1,6 @@
+---
+# Only the main css needs frontmatter for jekyll to recongnize it
+# Other files are only imported into main (there will be an error if Jekyll detects them as separate files)
+---
+
+@import "quiet_comic";

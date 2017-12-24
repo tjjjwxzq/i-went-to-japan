@@ -1,0 +1,6 @@
+---
+layout: null
+collection: "combined"
+---
+
+{% include collection_feed.xml %}

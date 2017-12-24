@@ -1,0 +1,6 @@
+---
+layout: null
+collection: "artworks"
+---
+
+{% include collection_feed.xml %}

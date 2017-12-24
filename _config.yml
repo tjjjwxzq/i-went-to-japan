@@ -1,0 +1,153 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Site Settings
+locale:           "en"
+title:            "My quiet webcomic"
+name:             "Your Name"
+description:      "A quiet webcomic"
+url:              # the base hostname and protocol (eg. http://example.com)
+baseurl:          # the subpath of your site eg. /mycomic
+repository:       # Github username/repo-name
+brand_image:      "assets/images/placeholder-brand-image.png" # path to brand image in the `assets/images` folder
+base_image_dir:   "assets/images/" # default image directory. Ensure the trailing slash is there
+thumbnail_label:  "page_number" # either "title" or "page_number"
+feed_label:       "page_number" # either "title" or "page_number"
+
+# SEO
+# Social sharing
+twitter:
+  username:
+facebook:
+  username:
+  app_id:
+  publisher:
+og_image:         # path to default Open Graph site image for SEO (relative to base_image_dir)
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type            : # Person or Organization (defaults to Person)
+  name            : # If the user or organization name differs from the site's name
+links:            # An array of links to social media profiles
+
+# these go into the meta site verification tag that allows use of webmaster tools provided by the respective search engines
+google-site-verification: # Google search engine
+bing-site-verification:   # Bing search engine
+alexa-site-verification:  # Alexa (Amazon) search engine
+yandex-site-verification: # Yandex (Russia) search engine
+naver-site-verification:  # Naver (Korea) search engine
+baidu-site-verification:  # Baidu (China) search engine
+
+# Analytics
+google_analytics: # your google analytics tracking code
+    # https://analytics.google.com/analytics/web/provision/?authuser=0#provision/SignUp/
+
+comments:
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    num_posts:    # 5 (default)
+    colorscheme:  # "light" (default), "dark"
+
+# Site author
+author:
+  name:           "Your Name"
+  bio:            "I quietly create beautiful things"
+  email:
+  uri:            # link to your home page
+  # linkes to your social media sites
+  deviant_art:    "deviantart.com"
+  facebook:       "facebook.com"
+  github:         "github.com"
+  instagram:      "instagram.com"
+  twitter:        "twitter.com"
+  youtube:        "youtube.com"
+
+# Collections
+collections:
+  pages:
+    output:       true
+    permalink:    /:collection/:path/ # trailing slash is necessary for current version of jekyll to serve pages correctly in development
+    layout:       default
+  artworks:
+    output:       true
+    permalink:    /:collection/:path/
+    layout:       default
+
+# theme
+theme: quiet-comic
+
+# Markdown Processing
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input:          GFM
+
+# Sass
+sass:
+  sass_dir:       _sass
+  style:          compressed
+
+
+# Plugins
+plugins:
+  -               jekyll-paginate-v2
+  -               jekyll-sitemap
+  -               jekyll-feed
+  -               jekyll-minimagick
+  -               jekyll-last-modified-at
+  -               jemoji
+
+# Defaults
+defaults:
+  # comic pages
+  -
+    scope:
+      path:       ""
+      type:       "pages"
+    values:
+      layout:     "page"
+  # artworks
+  -
+    scope:
+      path:       ""
+      type:       "artworks"
+    values:
+      layout:     "artwork"
+
+# jekyll-minimagick config
+mini_magick:
+  pages_thumbnails:
+    source:       "assets/images/pages"
+    destination:  "assets/images/pages/thumbnails"
+    crop:         "300x300+50+50"
+  artworks_thumbnails:
+    source:       "assets/images/artworks"
+    destination:  "assets/images/artworks/thumbnails"
+    crop:         "300x300+50+50"
+
+# jekyll-paginate-v2 config
+autopages:
+  enabled:        true
+  collections:
+    enabled:      true
+    title:        ':coll'
+    permalink:    "/:coll/"
+    layouts:
+      -           autopage_collection.html
+
+pagination:
+  enabled:        true
+  debug:          true
+  per_page:       5
+  permalink:      '/:num/'
+  title:          ':title | :num of :max'
+  limit:          0
+  sort_field:     'page_number'
+  sort_reverse:   true
+  trail:
+    before:       2
+    after:        2
