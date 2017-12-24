@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/i-went-to-japan/sitemap.xml
+Sitemap: https://tjjjwxzq.github.io/i-went-to-japan/sitemap.xml

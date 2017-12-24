@@ -28,7 +28,7 @@ facebook:
   username:
   app_id:
   publisher:
-og_image:         "assets/images/cover-2.png" # path to default Open Graph site image for SEO (relative to base_image_dir)
+og_image:         "assets/images/og-image.png" # path to default Open Graph site image for SEO (relative to base_image_dir)
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
