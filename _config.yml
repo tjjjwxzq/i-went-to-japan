@@ -7,16 +7,18 @@
 
 # Site Settings
 locale:           "en"
-title:            "My quiet webcomic"
+title:            "I went to Japan"
 name:             "Your Name"
 description:      "A quiet webcomic"
 url:              # the base hostname and protocol (eg. http://example.com)
-baseurl:          # the subpath of your site eg. /mycomic
-repository:       # Github username/repo-name
-brand_image:      "assets/images/placeholder-brand-image.png" # path to brand image in the `assets/images` folder
+baseurl:          "/i-went-to-japan"
+repository:       "tjjjwxzq/i-went-to-japan"
+brand_image:      "assets/images/logo.png" # path to brand image in the `assets/images` folder
+main_image: "assets/images/cover-2.png" # path to main image on home page
 base_image_dir:   "assets/images/" # default image directory. Ensure the trailing slash is there
 thumbnail_label:  "page_number" # either "title" or "page_number"
 feed_label:       "page_number" # either "title" or "page_number"
+future:           true # show posts with future dates
 
 # SEO
 # Social sharing
@@ -26,7 +28,7 @@ facebook:
   username:
   app_id:
   publisher:
-og_image:         # path to default Open Graph site image for SEO (relative to base_image_dir)
+og_image:         "assets/images/logo.png" # path to default Open Graph site image for SEO (relative to base_image_dir)
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -54,17 +56,17 @@ comments:
 
 # Site author
 author:
-  name:           "Your Name"
-  bio:            "I quietly create beautiful things"
+  name:           "Jun Qi"
+  bio:            "And then I made a comic"
   email:
   uri:            # link to your home page
   # linkes to your social media sites
-  deviant_art:    "deviantart.com"
-  facebook:       "facebook.com"
-  github:         "github.com"
-  instagram:      "instagram.com"
-  twitter:        "twitter.com"
-  youtube:        "youtube.com"
+  deviant_art:    "https://aquietimmanence.deviantart.com"
+  facebook:       "https://www.facebook.com/media/set/?set=a.1963589403919203.1073741835.100008044871830&type=1&l=9939bb0863"
+  github:         "https://github.com/tjjjwxzq"
+  instagram:
+  twitter:
+  youtube:
 
 # Collections
 collections:
@@ -123,11 +125,11 @@ mini_magick:
   pages_thumbnails:
     source:       "assets/images/pages"
     destination:  "assets/images/pages/thumbnails"
-    crop:         "300x300+50+50"
+    crop:         "300x300+400+400"
   artworks_thumbnails:
     source:       "assets/images/artworks"
     destination:  "assets/images/artworks/thumbnails"
-    crop:         "300x300+50+50"
+    crop:         "300x300+400+400"
 
 # jekyll-paginate-v2 config
 autopages:
@@ -142,7 +144,7 @@ autopages:
 pagination:
   enabled:        true
   debug:          true
-  per_page:       5
+  per_page:       50
   permalink:      '/:num/'
   title:          ':title | :num of :max'
   limit:          0
