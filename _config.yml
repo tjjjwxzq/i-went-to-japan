@@ -9,7 +9,7 @@
 locale:           "en"
 title:            "I went to Japan"
 name:             "Your Name"
-description:      "A quiet webcomic"
+description:      "I went to Japan. Stuff happened. I made a comic."
 url:              "https://tjjjwxzq.github.io"
 baseurl:          "/i-went-to-japan"
 repository:       "tjjjwxzq/i-went-to-japan"
@@ -28,7 +28,7 @@ facebook:
   username:
   app_id:
   publisher:
-og_image:         "assets/images/logo.png" # path to default Open Graph site image for SEO (relative to base_image_dir)
+og_image:         "assets/images/cover-2.png" # path to default Open Graph site image for SEO (relative to base_image_dir)
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
