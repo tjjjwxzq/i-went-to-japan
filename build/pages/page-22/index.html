@@ -127,75 +127,87 @@
   <body>
     <header>
   <nav>
-    <ul>
+    <ul class="Grid sm-Grid--1of1 md-Grid--1of2">
       
-        <li class="nav-home-button">
+        <li class="Grid-cell nav-home-button">
           <a href="/i-went-to-japan/">
-            <img src=/i-went-to-japan/assets/images/logo.png />
+            
+              <img src=/i-went-to-japan/assets/images/logo.png />
+            
           </a>
         </li>
       
-      <li>
+      <div class="Grid-cell basic-nav">
+
+        <div class="Grid Grid--fit">
+      <li class="Grid-cell">
         
         
           <a href="/i-went-to-japan/pages/page-42/">Latest</a>
         
       </li>
-      <li>
+      <li class="Grid-cell">
         
         
           <a href="/i-went-to-japan/pages/page-1/">First</a>
         
       </li>
-      <li>
+      <li class="Grid-cell">
         
           <a href="/i-went-to-japan/pages">All</a>
         
       </li>
-      <li>
+      <li class="Grid-cell">
         
           <a href="/i-went-to-japan/artworks">Gallery</a>
         
       </li>
+
+      </div>
+      </div>
     </ul>
   </nav>
 </header>
 
     <main><div class="Container--fixed">
   <div class="Grid Grid--1of1">
-    <h3 class="Grid-cell page-header">
-      22 - The Adventures of Bellilula II: The Love Hotel(s) - 4
-      <small class="header-date">
-        November 04 2017
-      </small>
 
-      <small class="size-buttons-container">
-        Zoom -
-        <a href="#width-100">100%</a> &middot;
-        <a href="#width-75">75%</a> &middot;
-        <a href="#width-50">50%</a>
-      </small>
-      <small class="pager-container">
-        <ul class="pager">
+    <div class="Grid-cell">
+      <h3>
+        The Adventures of Bellilula II: The Love Hotel(s) - 4
+        <time class="header-date">
+          November 04 2017
+        </time>
+      </h3>
+    </div>
+
+    <div class="Grid-cell pager-and-size">
+      <div class="Grid sm-Grid--1of1 md-Grid--1of2">
+        <ul class="Grid-cell pager">
           
-            <li class="pager-previous">
-              <a href="/i-went-to-japan/pages/page-21/">< Prev</a>
-            </li>
+            <li><a href="/i-went-to-japan/pages/page-21/">< Prev</a></li>
           
           
-            <li class="pager-next">
-              <a href="/i-went-to-japan/pages/page-23/">Next ></a>
-            </li>
+            <li><a href="/i-went-to-japan/pages/page-23/">Next ></a></li>
           
         </ul>
-      </small>
-    </h3>
 
-    <img id="width-50" src="/i-went-to-japan/assets/images/pages/bellilula-love-hotels-4.png" alt="The Adventures of Bellilula II: The Love Hotel(s) - 4" class="Grid-cell main-image">
+        <ul class="Grid-cell size-buttons">
+          Zoom -
+          <li><a href="#width-100">100%</a></li> &middot;
+          <li><a href="#width-75">75%</a></li> &middot;
+          <li><a href="#width-50">50%</a></li>
+        </ul>
+      </div>
+    </div>
 
-    <img id="width-75" src="/i-went-to-japan/assets/images/pages/bellilula-love-hotels-4.png" alt="The Adventures of Bellilula II: The Love Hotel(s) - 4" class="Grid-cell main-image">
+    <div class="Grid-cell">
+      <img id="width-50" src="/i-went-to-japan/assets/images/pages/bellilula-love-hotels-4.png" alt="The Adventures of Bellilula II: The Love Hotel(s) - 4" class="Grid-cell main-image">
 
-    <img id="width-100" src="/i-went-to-japan/assets/images/pages/bellilula-love-hotels-4.png" alt="The Adventures of Bellilula II: The Love Hotel(s) - 4" class="Grid-cell main-image">
+      <img id="width-75" src="/i-went-to-japan/assets/images/pages/bellilula-love-hotels-4.png" alt="The Adventures of Bellilula II: The Love Hotel(s) - 4" class="Grid-cell main-image">
+
+      <img id="width-100" src="/i-went-to-japan/assets/images/pages/bellilula-love-hotels-4.png" alt="The Adventures of Bellilula II: The Love Hotel(s) - 4" class="Grid-cell main-image">
+    </div>
 
     <ul class="Grid-cell pager">
       
@@ -229,42 +241,45 @@
 
 </div>
 </main>
-    <footer>
-  <div class="bio-container">
-    <h5>I went to Japan
-      <a href="/i-went-to-japan/combined_feed.xml" class="main-feed-link">
-        <img src="/i-went-to-japan/assets/images/feed-icon.svg">
-      </a>
-    </h5>
-    <p><strong>Jun Qi</strong> &middot; And then I made a comic</p>
+    <footer class="Container--fluid">
+  <div class="Grid Grid--gutters sm-Grid--1of1 md-Grid--fit">
+    <div class="Grid-cell bio-container">
+      <h5>I went to Japan
+        <a href="/i-went-to-japan/combined_feed.xml" class="main-feed-link">
+          <img src="/i-went-to-japan/assets/images/feed-icon.svg">
+        </a>
+      </h5>
+      <p><strong>Jun Qi</strong> &middot; Making comics and stuff</p>
+    </div>
+
+    <ul class="Grid-cell social-links">
+      
+        <li>
+          <a href="https://github.com/tjjjwxzq">
+            <img src="/i-went-to-japan/assets/images/github-icon.svg" />
+          </a>
+        </li>
+      
+      
+        <li>
+          <a href="https://aquietimmanence.deviantart.com">
+            <img src="/i-went-to-japan/assets/images/da-icon.svg" />
+          </a>
+        </li>
+      
+      
+        <li>
+          <a href="https://www.facebook.com/media/set/?set=a.1963589403919203.1073741835.100008044871830&type=1&l=9939bb0863">
+            <img src="/i-went-to-japan/assets/images/fb-icon.svg" />
+          </a>
+        </li>
+      
+      
+      
+      
+    </ul>
   </div>
-  <ul class="social-links">
-    
-      <li>
-        <a href="https://github.com/tjjjwxzq">
-          <img src="/i-went-to-japan/assets/images/github-icon.svg" />
-        </a>
-      </li>
-    
-    
-      <li>
-        <a href="https://aquietimmanence.deviantart.com">
-          <img src="/i-went-to-japan/assets/images/da-icon.svg" />
-        </a>
-      </li>
-    
-    
-      <li>
-        <a href="https://www.facebook.com/media/set/?set=a.1963589403919203.1073741835.100008044871830&type=1&l=9939bb0863">
-          <img src="/i-went-to-japan/assets/images/fb-icon.svg" />
-        </a>
-      </li>
-    
-    
-    
-    
-  </ul>
-</footer>
+  </footer>
 
   </body>
 
