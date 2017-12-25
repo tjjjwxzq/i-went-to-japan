@@ -15,6 +15,7 @@ baseurl:          "/i-went-to-japan"
 repository:       "tjjjwxzq/i-went-to-japan"
 brand_image:      "assets/images/logo.png" # path to brand image in the `assets/images` folder
 main_image: "assets/images/cover-2.png" # path to main image on home page
+mobile_main_image: "assets/images/mobile-cover-2.png" # path to main image on home page
 base_image_dir:   "assets/images/" # default image directory. Ensure the trailing slash is there
 thumbnail_label:  "page_number" # either "title" or "page_number"
 feed_label:       "page_number" # either "title" or "page_number"
@@ -57,7 +58,7 @@ comments:
 # Site author
 author:
   name:           "Jun Qi"
-  bio:            "And then I made a comic"
+  bio:            "Making comics and stuff"
   email:
   uri:            # link to your home page
   # linkes to your social media sites

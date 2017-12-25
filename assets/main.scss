@@ -4,3 +4,15 @@
 ---
 
 @import "quiet_comic";
+
+// Home page image
+.Home-img {
+  background-image: url(../{{ site.main_image}});
+}
+
+@media (max-width: $break-md) {
+  .Home-img {
+    background-image: url(../{{ site.mobile_main_image | default: site.m
+ain_image }});
+  }
+}
