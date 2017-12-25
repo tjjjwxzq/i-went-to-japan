@@ -1,4 +1,3 @@
-# need to track _site to deploy to gh-pages
-#_site
+_site
 .sass-cache
 .jekyll-metadata

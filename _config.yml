@@ -45,7 +45,7 @@ naver-site-verification:  # Naver (Korea) search engine
 baidu-site-verification:  # Baidu (China) search engine
 
 # Analytics
-google_analytics: # your google analytics tracking code
+google_analytics: "UA-111537036-1" # your google analytics tracking code
     # https://analytics.google.com/analytics/web/provision/?authuser=0#provision/SignUp/
 
 comments:
